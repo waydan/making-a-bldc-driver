@@ -1,0 +1,6 @@
+{
+	"name": "make-a-bldc-driver",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+}
