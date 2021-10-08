@@ -1,6 +1,9 @@
 {
     "clang-tidy.compilerArgs": [
-        "-DNDEBUG"
+        "-DNDEBUG",
+        // Add cross-compiler headers to the system path
+        "-isystem/usr/local/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include",
+        "-isystem/usr/local/gcc-arm-none-eabi-10.3-2021.07/arm-none-eabi/include/c++/10.3.1"
     ],
     "clang-tidy.buildPath": "./build",
     "clang-tidy.blacklist": [
