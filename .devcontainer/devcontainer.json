@@ -3,4 +3,10 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 	},
+	"extensions": [
+		"ms-vscode.cmake-tools",
+		"twxs.cmake",
+		"xaver.clang-format",
+		"notskm.clang-tidy"
+	],
 }
