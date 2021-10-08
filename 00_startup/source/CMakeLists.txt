@@ -1,0 +1,1 @@
+target_sources(startup-example PRIVATE main.cpp init.s startup.s led_data.s startup.s switch_function.s systick_util.s)
